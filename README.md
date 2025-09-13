@@ -42,6 +42,7 @@ Data Visualization
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 📖 Summary
+<br>
 MindMoney operates under the motto:
 ✨ “Balance Your Mind, Grow Your Money” ✨
 It addresses the intersection of mental wellness and financial management, empowering individuals to take control of 
