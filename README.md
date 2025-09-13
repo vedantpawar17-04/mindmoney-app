@@ -4,24 +4,25 @@ MindMoney - Balance Your Mind, Grow Your Money
 - It is designed to help users achieve better financial health while maintaining mental well-being.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀Features
-1.Financial Stress Assessment
+
+Financial Stress Assessment
 - Comprehensive stress evaluation questionnaire
 - Personalized results with actionable recommendations
 - Retake functionality for ongoing monitoring
   
-2.Expense Tracking & Categorization
+Expense Tracking & Categorization
 - Real-time expense logging (Food, Travel, Healthcare, etc.)
 - Visual spending breakdowns with percentages
 
-3.Financial Dashboard
+Financial Dashboard
 - Complete financial summary (income, spending, savings)
 - Interactive pie charts for spending analysis
 
-4.Income & Budget Planning
+Income & Budget Planning
 - Salary tracking and budget allocation
 - Savings calculation & financial goal monitoring
 
-5.Data Visualization
+Data Visualization
 - Interactive charts and progress bars
 - Color-coded financial health indicators
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -31,13 +32,13 @@ MindMoney - Balance Your Mind, Grow Your Money
  - Databae: MongoDB
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 📲App Workflow
-1.Registration/Login → Secure account creation or access
-2.Onboarding → Guided intro to core features
-3.Dashboard → Central hub for financial overview
-4.Expense Entry → Quick, categorized expense logging
-5.Analysis → Visual insights into spending patterns
-6.Stress Assessment → Financial wellness evaluation
-7.Planning → Budget creation & monitoring
+ - Registration/Login → Secure account creation or access
+ - Onboarding → Guided intro to core features
+ - Dashboard → Central hub for financial overview
+ - Expense Entry → Quick, categorized expense logging
+ - Analysis → Visual insights into spending patterns
+ - Stress Assessment → Financial wellness evaluation
+ - Planning → Budget creation & monitoring
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 📖 Summary
