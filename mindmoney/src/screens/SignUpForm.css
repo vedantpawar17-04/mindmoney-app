@@ -1,0 +1,112 @@
+/* Page container */
+.signup-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+/* Card */
+.signup-card {
+	max-width: 420px;
+	padding: 16px;
+	border-radius: 12px;
+	-webkit-backdrop-filter: blur(6px);
+	backdrop-filter: blur(6px);
+	border-color: #FAF7F3;
+}
+
+/* Title */
+.signup-title {
+	font-weight: bold !important;
+	color: #2563eb !important;
+	text-align: center;
+}
+
+/* Subtitle */
+.signup-subtitle {
+	text-align: center;
+	color: #16a34a;
+	font-weight: 500 !important;
+	margin-bottom: 8px;
+}
+
+/* Password strength bar */
+.password-strength-bar {
+	height: 8px !important;
+	border-radius: 5px;
+	background-color: #eee;
+}
+
+.password-strength-bar .MuiLinearProgress-bar {
+	border-radius: 5px;
+}
+
+/* Submit button */
+.signup-button {
+	margin-top: 24px !important;
+	font-weight: bold !important;
+	color: white !important;
+	border-radius: 8px !important;
+	padding: 12px 0 !important;
+	background: linear-gradient(90deg, #2563eb, #16a34a) !important;
+}
+
+.signup-button:hover {
+	background: linear-gradient(90deg, #1e40af, #15803d) !important;
+}
+
+/* Dialog */
+.signup-dialog {
+	border-radius: 12px !important;
+	padding: 16px !important;
+	box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2) !important;
+	min-width: 350px;
+	text-align: center;
+}
+
+.signup-dialog-title {
+	font-weight: bold !important;
+	color: #1e3a8a !important;
+}
+
+.signup-dialog-content {
+	margin-bottom: 16px !important;
+	color: #374151 !important;
+}
+
+.signup-dialog-button {
+	padding: 8px 32px !important;
+	font-weight: bold !important;
+	border-radius: 8px !important;
+	background: linear-gradient(90deg, #2563eb, #16a34a) !important;
+	color: white !important;
+}
+
+.signup-dialog-button:hover {
+	background: linear-gradient(90deg, #1e40af, #15803d) !important;
+}
+
+/* Snackbar */
+.snackbar {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	display: flex;
+	align-items: center;
+	padding: 8px 16px;
+	border-radius: 8px;
+	box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+	min-width: 280px;
+	z-index: 9999;
+}
+
+.snackbar-success {
+	background-color: #e6f4ea;
+	color: #1e4620;
+}
+
+.snackbar-error {
+	background-color: #fdecea;
+	color: #611a15;
+}

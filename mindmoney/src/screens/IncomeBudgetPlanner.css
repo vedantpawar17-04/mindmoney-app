@@ -1,0 +1,281 @@
+/* ===== Planner Container ===== */
+.planner-container {
+	max-width: 1100px;
+	margin: 2rem auto;
+	padding: 1.5rem;
+}
+
+/* ===== Summary Section ===== */
+.summary-card {
+	background: #ffffff;
+	padding: 1.5rem;
+	border-radius: 16px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+	margin-bottom: 2rem;
+}
+
+.summary-title {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	color: #1e293b;
+}
+
+.summary-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+	gap: 1.2rem;
+}
+
+.summary-item {
+	background: #f8fafc;
+	padding: 1rem;
+	border-radius: 12px;
+	text-align: center;
+}
+
+.summary-item h3 {
+	font-size: 1rem;
+	font-weight: 500;
+	margin-bottom: 0.5rem;
+	color: #475569;
+}
+
+.summary-item p {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: #0f172a;
+}
+
+/* ===== Category Breakdown ===== */
+.category-breakdown {
+	margin-bottom: 2rem;
+}
+
+.section-title {
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	color: #1e293b;
+}
+
+.category-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 1rem;
+}
+
+.category-card {
+	background: #ffffff;
+	padding: 1rem;
+	border-radius: 12px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.category-card h3 {
+	font-size: 1rem;
+	font-weight: 500;
+	color: #334155;
+}
+
+.category-card p {
+	margin: 0.3rem 0;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #0f172a;
+}
+
+.category-card .percentage {
+	font-size: 0.85rem;
+	font-weight: 500;
+	color: #64748b;
+}
+
+.progress-container {
+	background: #e2e8f0;
+	height: 6px;
+	border-radius: 4px;
+	margin-top: 0.5rem;
+	overflow: hidden;
+}
+
+.progress-bar {
+	height: 100%;
+	border-radius: 4px;
+	transition: width 0.3s ease-in-out;
+}
+
+/* ===== Pie Chart ===== */
+.pie-chart {
+	background: #ffffff;
+	padding: 1.5rem;
+	border-radius: 16px;
+	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+	margin-bottom: 2rem;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pie-chart:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Buttons ===== */
+.button-container {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.button-wrapper {
+	flex: 1;
+	max-width: 200px;
+}
+
+.add-expenses-btn,
+.back-to-dashboard-btn {
+	width: 100%;
+	padding: 0.75rem 1.2rem;
+	font-size: 1rem;
+	font-weight: 600;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.add-expenses-btn {
+	background: #2563eb;
+	color: #fff;
+}
+
+.add-expenses-btn:hover {
+	background: #1d4ed8;
+}
+
+.back-to-dashboard-btn {
+	background: #f1f5f9;
+	color: #0f172a;
+}
+
+.back-to-dashboard-btn:hover {
+	background: #e2e8f0;
+}
+
+/* ===== Budget Recommendations ===== */
+.budget-recommendations {
+	margin-top: 2rem;
+}
+
+.budget-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+.budget-card {
+	background: #ffffff;
+	padding: 1.2rem;
+	border-radius: 16px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+	opacity: 0.85;
+}
+
+.budget-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+	opacity: 1;
+}
+
+.budget-card h3 {
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	color: #334155;
+	text-align: center;
+}
+
+.budget-values {
+	margin-top: 1rem;
+	padding-top: 0.8rem;
+	border-top: 1px solid #e2e8f0;
+}
+
+.budget-values p {
+	font-size: 0.95rem;
+	font-weight: 500;
+	color: #0f172a;
+	margin: 0.4rem 0;
+}
+
+/* ===== Highlighted Recommended Plan ===== */
+.highlight-card {
+	border: 3px solid #facc15; /* yellow border */
+	box-shadow: 0 4px 15px rgba(250, 204, 21, 0.3);
+	border-radius: 16px;
+	transition: all 0.3s ease-in-out;
+	opacity: 1 !important;
+	filter: none !important;
+}
+
+.suggestion-text {
+	font-size: 0.95rem;
+	font-weight: 600;
+	color: #ca8a04; /* golden yellow */
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+
+/* ===== Recommended Pill Badge ===== */
+.recommended-pill {
+	background: #facc15;
+	color: #1f2937;
+	font-weight: 600;
+	font-size: 0.8rem;
+	padding: 4px 12px;
+	border-radius: 999px; /* pill shape */
+	margin-left: 8px;
+	vertical-align: middle;
+}
+
+/* ===== SweetAlert Custom Styling ===== */
+.swal-popup {
+	border-radius: 16px !important;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12) !important;
+	padding: 2rem 1.5rem !important;
+}
+
+.swal-title {
+	font-size: 1.4rem !important;
+	font-weight: 700 !important;
+	color: #1e293b !important;
+	margin-bottom: 1rem !important;
+}
+
+.swal-btn {
+	background: #facc15 !important;
+	color: #1f2937 !important;
+	font-weight: 600 !important;
+	font-size: 1rem !important;
+	padding: 0.6rem 1.4rem !important;
+	border-radius: 9999px !important; /* pill shape */
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
+	border: none !important;
+	transform: translateY(0);
+	transition: all 0.25s ease-in-out;
+}
+
+.swal-btn:hover {
+	background: #eab308 !important; /* darker yellow */
+	transform: translateY(-2px);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* ===== Blur Background for SweetAlert ===== */
+.swal2-container {
+	-webkit-backdrop-filter: blur(6px);
+	backdrop-filter: blur(6px);
+}

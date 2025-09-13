@@ -1,0 +1,30 @@
+.login-bg {
+	background: linear-gradient(135deg, #FAF6E9, #FFFFF0, #FAF7F3)
+}
+
+.login-card {
+	max-width: 420px;
+	width: 100%;
+	padding: 20px;
+	border-radius: 16px !important;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15) !important;
+}
+
+.login-btn {
+	margin-top: 20px !important;
+	font-weight: bold !important;
+	background: linear-gradient(90deg, #2563eb, #16a34a) !important;
+	color: white !important;
+}
+
+.login-btn:hover {
+	background: linear-gradient(90deg, #1e40af, #15803d) !important;
+}
+
+.forgot-btn {
+	margin-top: 10px !important;
+	font-size: 0.9rem !important;
+	text-transform: none !important;
+	color: #2563eb !important;
+	font-weight: 500 !important;
+}
