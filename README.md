@@ -26,10 +26,9 @@ MindMoney - Balance Your Mind, Grow Your Money
 - Color-coded financial health indicators
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️Tech Stack
- Frontend: React + Vite
- Backend: Node.js + Express.js
- Databae: MongoDB
- 
+ - Frontend: React + Vite
+ - Backend: Node.js + Express.js
+ - Databae: MongoDB
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 📲App Workflow
 1.Registration/Login → Secure account creation or access
